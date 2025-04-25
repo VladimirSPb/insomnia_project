@@ -1,0 +1,57 @@
+# Логи и временные файлы
+*.log
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*.ipynb_checkpoints
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Docker
+*.tar
+*.vhdx
+
+# Кэш/бинарники
+*.exe
+*.dll
+*.out
+*.class
+*.o
+*.a
+
+# Системные
+*.bak
+*.old
+*.orig
+*.lock
+*.pid
+
+# Конфиденциальные данные
+.env
+.env.local
+.env.development
+.env.production
+api_key.txt
+
+# Исключения по проекту
+har_and_cookies/
+Models/
+test_*.py
