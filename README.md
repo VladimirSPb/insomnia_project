@@ -42,3 +42,5 @@ curl -X POST "http://localhost:8000/translate" -H "Content-Type: application/jso
 curl -X POST "http://localhost:8000/translate" -H "Content-Type: application/json" -d "{\"text\": \"별빛 아래 펼쳐진 거대한 꽃밭 속의 고양이 왕국.\"}"
 
 ```
+
+Хорошего дня!
