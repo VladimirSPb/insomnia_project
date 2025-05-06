@@ -1,0 +1,12 @@
+# 📁 docker-compose.yml
+# Поднимает FastAPI-сервис с OPUS-MT через Docker
+
+services:
+  translator-api:
+    build: .
+    container_name: opus_translator
+    ports:
+      - "8000:8000"       # Проброс порта: внешний → внутренний
+    volumes:
+      - .:/app             # Привязываем текущую директорию внутрь контейнера
+    restart: unless-stopped
