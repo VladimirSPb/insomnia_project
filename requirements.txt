@@ -1,0 +1,13 @@
+# 📁 requirements.txt
+# Зависимости для FastAPI-сервера перевода с OPUS-MT
+
+fastapi==0.110.0
+uvicorn==0.29.0
+transformers==4.39.3
+torch==2.2.2
+pydantic==1.10.13
+sentencepiece
+sacremoses
+numpy<2.0
+accelerate==0.30.1
+
